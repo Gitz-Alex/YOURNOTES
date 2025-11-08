@@ -28,7 +28,7 @@ def ask_question(query, vectorstore, k=3):
         ),
     )
 
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.7)
+    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.5)
     chain = RunnableSequence(prompt_template | llm | StrOutputParser())
     response = chain.invoke({"context": context_text, "query": query})
     return response
@@ -38,7 +38,7 @@ def ask_question(query, vectorstore, k=3):
 if __name__ == "__main__":
     # load vectorestore
     vectorstore = load_vectorstore()
-    print(chalk.green(pyfiglet.figlet_format("GATEKEEPER")))
+    print(chalk.green(pyfiglet.figlet_format("YOURNOTES")))
     print("Ask a question based on your knowledge base buddy. Type 'exit' to quit.\n")
 
     while True:
