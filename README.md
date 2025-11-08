@@ -17,7 +17,7 @@ This project allows you to build a local knowledge base from your documents (PDF
 
 ## Project Structure
 
-pdf_reader/
+main_directory/
 │
 ├── build_knowledgebase.py # Builds and saves the FAISS vectorstore
 ├── main.py # Runs the interactive chat interface
