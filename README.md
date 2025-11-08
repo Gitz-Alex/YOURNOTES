@@ -60,6 +60,7 @@ Do not copy the vectorstore folder to GitHub — it’s automatically generated 
 ### 6. Running the main script
 Once your knowledge base is built run:
 ```python main.py```
+#### inspired by @chachacollins GATEKEEPER
 
 
 
