@@ -1,6 +1,6 @@
 # AI Knowledge Base with Gemini and HuggingFace Embeddings
 
-This project allows you to build a local knowledge base from your documents (PDF, DOCX, TXT, CSV, JSON) and interact with it through a command-line interface. It uses HuggingFace embeddings for semantic search and Google's Gemini model for reasoning.
+This project allows you to build a local knowledge base from your documents (PDF, DOCX, TXT, CSV, JSON) and interact with it through a command-line interface. It uses HuggingFace embeddings for semantic search and Google's Gemini model for reasoning. If you're a person who puts they're faith in their own generated notes and sometimes have a hard time referring to your notes you'll find this particularly useful. 
 
 ---
 
